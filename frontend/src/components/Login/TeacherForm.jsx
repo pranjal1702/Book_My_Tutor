@@ -77,7 +77,6 @@ function Teacher() {
                     onChange={changeHandler}
                     placeholder="Email"
                   />
-                  <label>Email: teacher@gmail.com</label>
                   <input
                     className="mt-3 p-2 border rounded dark:bg-slate-700"
                     type="password"
@@ -86,7 +85,6 @@ function Teacher() {
                     onChange={changeHandler}
                     placeholder="Password"
                   />
-                  <label>Password: pass123</label>
                   <div className="flex mt-4 gap-3 w-full">
                     <input
                       type="submit"

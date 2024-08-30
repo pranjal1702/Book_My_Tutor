@@ -14,3 +14,9 @@ const connectToMongo = () => {
         })
 }
 module.exports = connectToMongo;
+
+
+
+// 4XopSP4csM16UFeU
+
+// mongodb+srv://pranjalsingh1702:<db_password>@cluster0.0cktj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0

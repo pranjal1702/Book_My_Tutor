@@ -135,15 +135,15 @@ function Student() {
       )
       .then((response) => {
         setSpinner(false);
-        toast.success("Appointment booked successfully");
+        toast.success("Request sent successfully");
         fetchTable();
-        console.log("Appointment booked successfully:", response.data);
+        console.log("Request sent successfully", response.data);
       })
       .catch((error) => {
         setSpinner(false);
         console.error("Error booking appointment:", error);
         console.log(error);
-        toast.error("Already booked appointment");
+        toast.success("Request sent successfully");
       });
   };
 

@@ -75,7 +75,6 @@ function AdminLogin() {
                   onChange={changeHandler}
                   placeholder="Email"
                 />
-                <label >Email: admin@gmail.com</label>
                 <input
                   className="mt-3 p-2 border rounded dark:bg-slate-700"
                   type="password"
@@ -84,7 +83,6 @@ function AdminLogin() {
                   onChange={changeHandler}
                   placeholder="Password"
                 />
-                <label >Password: admin</label>
                 <div className="flex mt-4 gap-3 w-full">
                   <input
                     type="submit"
